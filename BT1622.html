@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caculator</title>
+</head>
+<body>
+    <script type="text/javaScript">
+        //Nhap
+        inPase(a = prompt('Nhap gia tri a: '))
+        inPase(b = prompt('Nhap gia tri b: '))
+
+        //Cong
+        document.writeln('Cong' + a+b);
+
+        //Tru
+        document.writeln('Tru' + a-b);
+
+        //Nhan
+        document.writeln('Nhan' + a*b);
+
+        //Chia
+        if(b != 0) {
+            document.writeln('Chia' + a/b);
+        } else {
+            document.writeln('b phai khac 0');
+            b = prompt('Nhap lai gia tri b: ')
+        }
+
+    </script>
+    
+</body>
+</html>
